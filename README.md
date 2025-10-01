@@ -11,4 +11,4 @@ Our project seeks to understand how democratic Wikipedia is, especially in regar
 ## Methodology
 We plan to gather data from Wikipedia on user activity as well as page activity. We will use community/graph visualization software and certain statistics to hopefully gain insight into Wikipedia's community structure and overall democratic qualities.
 ## Python Program
-The Python test program gathers the edit history of 5 active (50+ edits) users at random and dumps the data to a file. Note: This program was created with the use of AI tools.
+The Python test program gathers the edit history of 50 users at random and dumps the data to a set of files. Note: This program was created with the use of AI tools and was debugged by me.
