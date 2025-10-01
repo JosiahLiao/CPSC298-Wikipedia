@@ -7,7 +7,7 @@ import csv
 import os
 from typing import List, Dict, Any
 
-def find_active_users(min_edits: int = 50, max_users: int = 5) -> List[Dict]:
+def find_active_users(max_users: int = 50) -> List[Dict]:
     """
     Find active Wikipedia users with a minimum number of edits.
     
@@ -26,7 +26,6 @@ def find_active_users(min_edits: int = 50, max_users: int = 5) -> List[Dict]:
         "list": "allusers",
         "aulimit": max_users,
         "auwitheditsonly": "true",
-        "auminedits": min_edits,
         "auprop": "editcount"
     }
     
@@ -291,8 +290,7 @@ def export_consolidated_report(users_data: List[Dict], export_format: str, outpu
 def main():
     parser = argparse.ArgumentParser(description="Extract and export Wikipedia users' edit histories")
     parser.add_argument("--manual", help="Specific Wikipedia username to query (skips auto-discovery)")
-    parser.add_argument("--min-edits", type=int, default=50, help="Minimum edits for auto-discovered users")
-    parser.add_argument("--user-count", type=int, default=5, help="Number of users to auto-discover")
+    parser.add_argument("--user-count", type=int, default=50, help="Number of users to auto-discover")
     parser.add_argument("--edit-limit", type=int, default=50, help="Maximum number of edits to retrieve per user")
     parser.add_argument("--output-dir", default="wiki_edits", help="Directory to store output files")
     parser.add_argument("--format", choices=["txt", "csv", "json"], default="csv", 
@@ -314,8 +312,8 @@ def main():
         users_data.append(user_data)
     else:
         # Auto-discovery mode
-        print(f"Finding {args.user_count} active Wikipedia users with at least {args.min_edits} edits...")
-        active_users = find_active_users(args.min_edits, args.user_count)
+        print(f"Finding {args.user_count} active Wikipedia users...")
+        active_users = find_active_users(args.user_count)
         
         if not active_users:
             print("No users found matching the criteria.")
