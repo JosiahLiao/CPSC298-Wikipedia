@@ -7,5 +7,3 @@
 - This article studies bureaucracy in Wikipedia governance and how concentration of power affects the spread of information.
 4. Konieczny, P. (2010). Adhocratic governance in the Internet age: A case of Wikipedia. Journal of information technology & politics, 7(4), 263-283. [pdf](https://hal.science/hal-01580964/file/article.pdf)
 - This articles studies Wikipedia in the light of the governance model adhocracy as a way to understand Wikipedia's governance structure.
-## Use of Wikipedia Data
-Wikipedia data will greatly inform our study of governance and democracy in Wikipedia as we attempt to quantify power balance, especially in controversial articles. Making use of edit logs, user history, and related article grouping will be vital to the success of this project.
