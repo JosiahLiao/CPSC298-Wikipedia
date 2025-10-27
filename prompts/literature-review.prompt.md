@@ -1,10 +1,10 @@
 ---
 type: agent-workflow
 version: 1.1
-author: Alexander Kurz
-created: 2025-10-22
-updated: 2025-10-22
-description: Automated literature review workflow for Wikipedia Governance research
+author: Josiah Liao
+created: 2025-10-27
+updated: 2025-10-27
+description: Automated literature review workflow for research on Wikipedia governance and Wikipedia communities
 prerequisites:
   - pdftotext command-line tool installed
   - PDF files in literature/ folder
@@ -40,7 +40,7 @@ For each new PDF article in the `literature/` folder:
 2. **Extract key information** from the article and add to `literature-review.md`:
    - Link to Google Scholar query containg the title of the article.
    - **Summary** (2 sentences): Main thesis or contribution of the article
-   - **Methodology** (2 sentences): Research methods employed and the kind of data used (e.g., quantitative/qualitative, dataset size, time period)
+   - **Methodology** (2 sentences): Research methods employed and the kind of data used (e.g., quantitative/qualitative, dataset size, time period), emphasize methods which find connections or process large data
    - **Results** (1 sentence): Key findings and conclusions
    - **Evaluation** (1-5 scale, 1 sentence justification): Estimate a ranking of the value of this paper compared to other research in the field in terms of importance of the results and the quality of the methodology. Also consider the quality of writing and overall structure.
    - **Resources**: Add links to any of the following if available (ignore if you cannot find links):

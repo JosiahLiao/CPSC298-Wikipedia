@@ -1,26 +1,9 @@
-# Literature Review
-
-## Exploring Systematic Bias through Article Deletions on Wikipedia from a Behavioral Perspective (2020)
-
-**Authors**: Zena Worku, Taryn Bipat, David W. McDonald, Mark Zachry (University of Washington)
-
-**Conference**: OpenSym 2020, August 25–27, 2020, Virtual conference, Spain
-
-**DOI**: https://doi.org/10.1145/3412569.3412573
-
-**Google Scholar**: [Search for "Exploring Systematic Bias through Article Deletions on Wikipedia from a Behavioral Perspective"](https://scholar.google.com/scholar?q=Exploring+Systematic+Bias+through+Article+Deletions+on+Wikipedia+from+a+Behavioral+Perspective)
-
-**Summary**: This research investigates whether Wikipedia's well-documented gender gap in participation leads to systematic bias in content deletion, specifically examining if articles of likely interest to women are deleted more frequently than those of interest to men. Contrary to the hypothesis, the study finds no evidence of systematic bias resulting in more deletions or nominations for deletions against content of likely interest to women, suggesting that deletion processes may not be where gender bias is most prominently enacted in Wikipedia.
-
-**Methodology**: The researchers adopted a method from Menking et al. (2017) to identify articles of supposed interest to different genders by analyzing keywords from magazines with primarily male or female readership from 2004 and 2014, creating three datasets (2004, 2014, and decadal terms appearing in both years). They then manually examined Wikipedia's public deletion logs for Articles for Deletion (AfD) and Criteria for Speedy Deletion (CSD), searching AfD discussions on-wiki and querying deletion logs using the Wikimedia Foundation's Quarry tool to compare deletion rates across gendered content categories.
-
-**Results**: The analysis revealed no significant systematic bias in deletion rates.
-
-**Evaluation**: 4/5 - Eexcellent research paper structure, the writing is accessible while maintaining academic rigor, provides transparent discussion of limitations.
-
-**Resources**:
-- No resources found.
-
----
-
-*Last updated: 2025-10-22*
+## Research Articles
+1. Rijshouwer, E. (2019). Organizing democracy: Power concentration and self-organization in the evolution of Wikipedia. [pdf](https://repub.eur.nl/pub/113937/)
+- This article studies the ways communities organize in Wikipedia, and how that affects the democratic spread of information.
+2. Firer-Blaess, S. (2011). Wikipedia: Example for a future electronic democracy?: Decision, discipline and discourse in the collaborative encyclopaedia. Studies in Social and Political Thought, 19, 131-154. [pdf](https://www.diva-portal.org/smash/get/diva2:438678/FULLTEXT03)
+- This article examines Wikipedia as a paradigm for electronic democratic systems and studies the sociology behind this.
+3. Rijshouwer, E., Uitermark, J., & de Koster, W. (2023). Wikipedia: a self-organizing bureaucracy. Information, Communication & Society, 26(7), 1285-1302. [pdf](https://www.tandfonline.com/doi/pdf/10.1080/1369118X.2021.1994633)
+- This article studies bureaucracy in Wikipedia governance and how concentration of power affects the spread of information.
+4. Konieczny, P. (2010). Adhocratic governance in the Internet age: A case of Wikipedia. Journal of information technology & politics, 7(4), 263-283. [pdf](https://hal.science/hal-01580964/file/article.pdf)
+- This articles studies Wikipedia in the light of the governance model adhocracy as a way to understand Wikipedia's governance structure.
